@@ -20,12 +20,17 @@ public class RequestDemo6 extends HttpServlet {
         String username = request.getParameter("username");
        /* System.out.println("post");
         System.out.println(username);*/
+        System.out.println("post");
+        System.out.println(username);
 
        //根据参数名称获取参数值的数组
         String[] hobbies = request.getParameterValues("hobby");
         /*for (String hobby : hobbies) {
             System.out.println(hobby);
         }*/
+        for (String hobby : hobbies) {
+            System.out.println(hobby);
+        }
 
         //获取所有请求的参数名称
 
@@ -37,6 +42,13 @@ public class RequestDemo6 extends HttpServlet {
             System.out.println(value);
             System.out.println("----------------");
         }*/
+        while(parameterNames.hasMoreElements()){
+            String name = parameterNames.nextElement();
+            System.out.println(name);
+            String value = request.getParameter(name);
+            System.out.println(value);
+            System.out.println("----------------");
+        }
 
         // 获取所有参数的map集合
         Map<String, String[]> parameterMap = request.getParameterMap();
