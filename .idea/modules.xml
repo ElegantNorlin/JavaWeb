@@ -8,6 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" filepath="$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_servlet&amp;http&amp;request/day14_servlet&amp;http&amp;request.iml" filepath="$PROJECT_DIR$/day14_servlet&amp;http&amp;request/day14_servlet&amp;http&amp;request.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_test/day14_test.iml" filepath="$PROJECT_DIR$/day14_test/day14_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_Response/day15_Response.iml" filepath="$PROJECT_DIR$/day15_Response/day15_Response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_cookie&amp;session/day16_cookie&amp;session.iml" filepath="$PROJECT_DIR$/day16_cookie&amp;session/day16_cookie&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_case/day17_case.iml" filepath="$PROJECT_DIR$/day17_case/day17_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_el&amp;jstl/day17_el&amp;jstl.iml" filepath="$PROJECT_DIR$/day17_el&amp;jstl/day17_el&amp;jstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19_filter&amp;listener/day19_filter&amp;listener.iml" filepath="$PROJECT_DIR$/day19_filter&amp;listener/day19_filter&amp;listener.iml" />
     </modules>
   </component>
 </project>
