@@ -31,11 +31,7 @@ public class ProxyTest {
                 /*System.out.println("该方法执行了....");
                 System.out.println(method.getName());
                 System.out.println(args[0]);
-
-
-
-
-*/
+                */
                 //判断是否是sale方法
                 if(method.getName().equals("sale")){
                     //1.增强参数
@@ -56,12 +52,12 @@ public class ProxyTest {
 
             }
         });
-
         //3.调用方法
-
        /* String computer = proxy_lenovo.sale(8000);
         System.out.println(computer);*/
+        String computer = proxy_lenovo.sale(8000);
+        System.out.println(computer);
 
-        proxy_lenovo.show();
+//        proxy_lenovo.show();
     }
 }
